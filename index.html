@@ -1,75 +1,205 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width">
-		<meta name="description" content="Proffesional and affordable web design">
-		<meta name="keywords" content="web design, professional web design">
-		<meta name="author" content="Milan Mihajlovic">
-		<meta property="og:image" content="https://onebasemedia.co.uk/wp-content/uploads/2016/01/website-design-essex.jpg" />
-		<link rel="icon" type="image/png" href="https://onebasemedia.co.uk/wp-content/uploads/2016/01/website-design-essex.jpg">
-		<title>Web design | Welcome</title>
-		<link rel="stylesheet" href="./css/style.css">
-	</head>
-	<body>
+<html lang="en">
 
-	<header>
-		<div class="container">
-			<div id="branding"> 
-			<h1> <span class="highlight"> Web</span> Design Company </h1>
-			</div>
-			<nav>
-				<ul>
-					<li class="current" ><a href="index.html">Home</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="services.html">Services</a></li>
-				</ul>
-			</nav>
-		</div>
-	</header>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-	<section id="showcase">
-		<div class="container">
-			<h1> Affordable Professional Web Design </h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tincidunt, lectus accumsan commodo porttitor, lorem magna convallis eros, eu gravida purus nisi eget erat. </p>
-		</div>
-	</section>
+  <title>LEPNS</title>
+  <meta content="" name="Sajt Laboratorije za eksperimentalnu psihologiju Filozofskog fakulteta, Univerziteta u Novom Sadu.">
+  <meta content="" name="LEPNS, Lepovanje, Novi Sad, Laboratorija za eksperimentalnu psihologiju, Psihologija, Univerzitet u Novom Sadu, Odsek za psihologiju, Filozofski fakultet">
 
-	<section id="newsletter">
-		<div class="container">
-			<h1>Subscrite To Our Newsletter </h1>
-			<form>
-			<input type="email" placeholder="Enter Email..">
-			<button type="submit" class="button_1"> Subscribe </button>
-			</form>
-		</div>
-	</section>
+  <!-- Favicons -->
+  <link href="assets/img/icon.png" rel="icon">
 
-	<section id="boxes">
-		<div class="container">
-			<div class="box">
-			<img src="./img/logo_html.png">
-				<h3>HTML5 Markup</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tincidunt, lectus accumsan.</p>
-			</div>
-			<div class="box">
-				<img src="./img/logo_css.png">
-				<h3>CSS3 Styling</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tincidunt, lectus accumsan.</p>
-			</div>
-			<div class="box">
-				<img src="./img/logo_brush.png">
-				<h3>Graphic Design</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tincidunt, lectus accumsan.</p>
-			</div>
-		</div>
-	</section>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-	<footer> 
-	<p> Milan Mihajlović, Copyright &copy; 2017</p>
-	</footer>
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
 
 
-	</body>
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-between align-items-center">
+
+      <div class="logo">
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <a href="index.html"><img src="assets/img/logo1.png" alt="" class="img-fluid"></a>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="active" href="index.html">Početna</a></li>
+          <li class="dropdown"><a href="#"><span>Članovi</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="sr/nastavnici.html">Nastavnici</a></li>
+              <li><a href="#">Alumni</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>Istraživanja</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Tekuća Istraživanja</a></li>
+              <li><a href="#">Prethodne linije istraživanja</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>Resursi</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Publikacije</a></li>
+              <li><a href="#">Projekti</a></li>
+              <li><a href="#">Saradnja</a></li>
+              <li><a href="#">Dokumentacija</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>Dešavanja</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Događaji</a></li>
+              <li><a href="#">Vesti</a></li>
+              <li class="dropdown"><a href="#"><span>Lepovanje</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Lepovanje 1</a></li>
+                  <li><a href="#">Lepovanje 2</a></li>
+                  <li><a href="#">Lepovanje 3</a></li>
+                  <li><a href="#">Lepovanje 4</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="about.html">Linkovi</a></li>
+          <li><a href="services.html">Studenti</a></li>
+          <li>
+            <a href="index.html" class="language" rel="it-IT"><img src="assets/img/sr.png" alt="Srpski" /></a>
+          </li>
+          <li>
+            <a href="en/index_en.html" class="language" rel="en-US"><img src="assets/img/en.png" alt="English" /></a>
+          </li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container">
+      <div id="heroCarousel"class="carousel"  >
+          <!-- Slide 1 -->
+          <div class="carousel-item active" style="background-image: url(assets/img/background.png)">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown"><span>Laboratorija za eksperimentalnu psihologiju</span></h2>
+                <p class="animate__animated animate__fadeInUp">Dobrodošli na sajt Laboratorije za eksperimentalnu psihologiju Filozofskog fakulteta, Univerziteta u Novom Sadu.</p>
+                <a href="#main" class="btn-get-started animate__animated animate__fadeInUp">Saznaj Više</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= Featured Section ======= -->
+    <section id="featured" class="featured">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="icon-box">
+              <i class="bi bi-building"></i>
+              <h3>O nama</h3>
+              <p>Laboratorija za eksperimentalnu psihologiju Filozofskog fakulteta u Novom Sadu osnovana je 1994. godine i predstavlja deo Odseka za Psihologiju. Istovremeno, čini jedinstvenu naučnu celinu sa Laboratorijom za eksperimentalnu psihologiju Filozofskog fakulteta u Beogradu.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="icon-box">
+              <i class="bi bi-people"></i>
+              <h3>Naš tim</h3>
+              <p>Svoja istraživanja u okviru laboratorije trenutno izvodi devet profesora, šest doktoranada i više mlađih članova, studenata diplomskih i dodiplomskih studija psihologije.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="icon-box">
+              <i class="bi bi-clipboard2-data"></i>
+              <h3>Istraživanja</h3>
+              <p>U okviru istraživanja, izvode se eksperimenti u kojima se primenjuju metode psihofizike, bihejvioralne metode, metode kvantitativne lingvistike, praćenje očnih pokreta, kao i EEG i ERP metode.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Featured Section -->
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-6">
+            <img src="assets/img/tim.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 content">
+            <h3>Tekuća istraživanja</h3>
+            <p class="fst-italic">
+              U okviru Laboratorije za eksperimentalnu psihologiju sprovode se istraživanja iz oblasti:
+            </p>
+            <ul>
+              <li><i class="bi bi-bookmark-check"></i>  Opažanje boja i osvetljenja</li>
+              <li><i class="bi bi-bookmark-check"></i>  Svetlina i različiti nivoi osvetljenja</li>
+              <li><i class="bi bi-bookmark-check"></i>  Opažanje boja i jezik</li>
+              <li><i class="bi bi-bookmark-check"></i>  Mentalna vizuelizacija</li>
+              <li><i class="bi bi-bookmark-check"></i>  Opažanje lica</li>
+              <li><i class="bi bi-bookmark-check"></i>  Vizuelna pažnja i pretraga</li>
+              <li><i class="bi bi-bookmark-check"></i>  Opažanje dubine i kinetički efekat dubine</li>
+            </ul>
+            <p>
+              Prethodne linije istraživanja odnosile su se na perceptivno bogatstvo reči, kao i obradu i reprezentaciju višeznačnih reči.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+   
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        Laboratorija za eksperimentalnu psihologiju | Filozofski fakultet | Dr Zorana Dinđića 2 | 21000 Novi Sad | Srbija
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
 
 </html>
